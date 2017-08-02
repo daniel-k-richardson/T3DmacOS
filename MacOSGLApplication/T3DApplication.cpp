@@ -42,7 +42,8 @@ namespace T3D
     
     string T3DApplication::getResourcePath(string resourceName) {
         
-        string resourcePath = ""; //Change this to your resources directory i.e "/Users/adamdilger/Documents/Resources/"
+        
+        string resourcePath = YOUR_RESOURCE_PATH; //Change this to your resources directory i.e "/Users/adamdilger/Documents/Resources/"
         
         if (resourcePath.compare("") != 0) {
             return resourcePath + resourceName;
