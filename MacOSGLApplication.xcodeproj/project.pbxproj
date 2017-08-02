@@ -74,6 +74,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		923C31CA1F31D09B0092647A /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Resources; path = MacOSGLApplication/Resources; sourceTree = "<group>"; };
 		9260AC861F31AFE7003F0C29 /* MacOSGLApplication */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MacOSGLApplication; sourceTree = BUILT_PRODUCTS_DIR; };
 		9260AC901F31B00A003F0C29 /* Animation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Animation.cpp; sourceTree = "<group>"; };
 		9260AC911F31B00A003F0C29 /* Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation.h; sourceTree = "<group>"; };
@@ -197,6 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				9260AC881F31AFE7003F0C29 /* MacOSGLApplication */,
+				923C31CA1F31D09B0092647A /* Resources */,
 				9260AC871F31AFE7003F0C29 /* Products */,
 				9260AD301F31B021003F0C29 /* Frameworks */,
 			);
@@ -622,6 +624,7 @@
 				9260AC8F1F31AFE7003F0C29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

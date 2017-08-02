@@ -41,7 +41,15 @@ namespace T3D
 	}
     
     string T3DApplication::getResourcePath(string resourceName) {
-        return "/Users/adamdilger/Resources/" + resourceName;
+        
+        string resourcePath = ""; //Change this to your resources directory i.e "/Users/adamdilger/Documents/Resources/"
+        
+        if (resourcePath.compare("") != 0) {
+            return resourcePath + resourceName;
+        } else {
+            printf("T3DApplication: getResourcePath() has not been updated. Closing program...\n");
+            exit(0);
+        }
     }
 	
 
