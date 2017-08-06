@@ -5,8 +5,8 @@ An OSX XCode implementation of the T3D Graphics Engine
 1. No Sound (simple fix)
 2. Not all keyboard keys work
 3. Some lines of code commented out
-  1. line 61 : Bone.cpp <transform.setLocalRotation>
-  2. line 30 : SweepPath.cpp <transform.setLocalRotation>
+   1. line 61 : Bone.cpp <transform.setLocalRotation>
+   2. line 30 : SweepPath.cpp <transform.setLocalRotation>
 4. Resources have to have the absolute filepath in order to load correctly
 
 # Installation
