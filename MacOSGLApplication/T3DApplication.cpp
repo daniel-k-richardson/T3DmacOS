@@ -43,7 +43,7 @@ namespace T3D
     string T3DApplication::getResourcePath(string resourceName) {
         
         
-        string resourcePath = "YOUR_RESOURCE_PATH"; //Change this to your resources directory i.e "/Users/adamdilger/Documents/Resources/"
+        string resourcePath = "/Users/danielrichardson/Documents/Development/Projects/T3D/T3DmacOS/MacOSGLApplication/Resources/"; //Change this to your MacOSGLApplication/Resources/ directory i.e "/Users/adamdilger/Documents/MacOSGLApplication/Resources/"
         
         if (resourcePath.compare("") != 0) {
             return resourcePath + resourceName;

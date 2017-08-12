@@ -12,7 +12,7 @@
 #define DIAGMESSAGETASK_H
 
 
-//T3DAppliction is only included for the 'getResourcesPath()' function
+//T3DAppliction is only included for the 'getMacOSGLApplication/Resources/Path()' function
 #include "T3DApplication.h"
 
 #include "Task.h"

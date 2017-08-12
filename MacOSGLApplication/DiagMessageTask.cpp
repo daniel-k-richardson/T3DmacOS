@@ -82,7 +82,7 @@ namespace T3D {
 
 			removeOverlay();
 
-            const char *fontPath = "YOUR_RESOURCE_PATHFreeSans.ttf";
+            const char *fontPath = "/Users/danielrichardson/Documents/Development/Projects/T3D/T3DmacOS/MacOSGLApplication/Resources/FreeSans.ttf";
             
             font *f = app->getFont(fontPath, 16);
             

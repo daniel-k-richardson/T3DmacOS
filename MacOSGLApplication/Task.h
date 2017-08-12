@@ -7,7 +7,7 @@
 // task.h
 //
 // Abstract base class for tasks
-// Ideas from http://www.gamedev.net/page/resources/_/technical/game-programming/enginuity-part-iv-r1973
+// Ideas from http://www.gamedev.net/page/MacOSGLApplication/Resources//_/technical/game-programming/enginuity-part-iv-r1973
 
 #ifndef TASK_H
 #define TASK_H

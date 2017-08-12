@@ -31,7 +31,7 @@ namespace T3D{
 
 		Material *shaderGreen = renderer->createMaterial(Renderer::PR_OPAQUE);
 		shaderGreen->setDiffuse(0,1,0,1);
-		GLShader *specShader = new GLShader("Resources/vspecular.shader","Resources/frag.shader");
+		GLShader *specShader = new GLShader("MacOSGLApplication/Resources/vspecular.shader","MacOSGLApplication/Resources/frag.shader");
 		specShader->compileShader();
 		shaderGreen->setShader(specShader);
 

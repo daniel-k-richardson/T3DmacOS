@@ -23,7 +23,7 @@ namespace T3D {
       More information about Quaternions and the theory behind them can be found here:
 	  - http://www.ogre3d.org/tikiwiki/Quaternion+and+Rotation+Primer
       - http://www.cprogramming.com/tutorial/3d/quaternions.html
-	  - http://www.gamedev.net/page/resources/_/reference/programming/math-and-physics/quaternions/Quaternion-powers-r1095
+	  - http://www.gamedev.net/page/MacOSGLApplication/Resources//_/reference/programming/math-and-physics/quaternions/Quaternion-powers-r1095
       \author	Robert Ollington
       */
 	class Quaternion

@@ -47,7 +47,7 @@ namespace T3D
 
 	Texture::Texture(std::string filename, bool continuousTone, bool mipmap)
 	{
-		if ( image = IMG_Load(filename.c_str()))			// supports lots of file formats
+		if ( image == IMG_Load(filename.c_str()))			// supports lots of file formats
 		//if ( image = SDL_LoadBMP(filename.c_str()) )
 		{
 			std::cout << "loaded: " << filename << "\n";

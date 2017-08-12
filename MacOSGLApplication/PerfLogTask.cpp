@@ -85,7 +85,7 @@ namespace T3D{
 
 			if (diagDisplay)
 			{
-				font *f = app->getFont("resources/FreeSans.ttf", 16);
+				font *f = app->getFont("MacOSGLApplication/Resources/FreeSans.ttf", 16);
 				if (f != NULL)
 				{
 					std::ostringstream ss;
